@@ -1,5 +1,13 @@
-@import url(common.css);
-@import url(controls.css);
-@import url(header.css);
-@import url(products.css);
-@import url(footer.css);
+/* Import roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    --bs-body-font-family: "Roboto", sans-serif;
+}
+
+.btn-info {
+    --bs-btn-bg: #f00d0d;
+    --bs-btn-border-color: #f0110d;
+    --bs-btn-hover-bg: #f28131;
+    --bs-btn-hover-border-color: #f29625;
+}
